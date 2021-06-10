@@ -1,0 +1,40 @@
+img {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bd {
+    color: rgb(216, 148, 148);
+}
+.card-section {
+    text-align: center;
+}
+.nameprice {
+    justify-content: center;
+    margin-right: auto;
+    font-size: 20px;
+    display: flex;
+    position: relative;;
+    font-weight: bold;
+}
+h4 {
+    text-decoration: underline;
+}
+p {
+    margin-left: 20px;
+    margin-top: 27px;
+    font-weight: bold;
+}
+
+.link {
+    display:block;
+    text-align:center;
+    font-weight: bold;
+    color: rgb(135, 132, 132);
+}
+
+.link:hover{
+    color: rgb(249, 249, 249);
+}

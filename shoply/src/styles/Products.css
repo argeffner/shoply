@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+    /* flex-flow: row wrap; */
+    /* padding: 10px; */
+    text-align: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    text-decoration: none;
+    margin: 20px;
+    background-color: rgb(244, 250, 251);
+  }
+
+.mainP {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    justify-content: space-between;
+    padding: 10px;
+    /* align-content: space-around; */
+}
+
+.i-name {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(220, 242, 177);
+    position: relative;
+    top: 8rem;
+}
+
+.prodLink {
+    color:rgb(84, 174, 174);
+    font-size: 25px;
+}
+
+.prodLink:hover {
+    color:rgb(163, 249, 249);
+}

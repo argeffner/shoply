@@ -1,0 +1,62 @@
+nav {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    bottom: 90%;
+    display: inline-block;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    background-color: aquamarine;
+    z-index: 2;
+}
+ul {
+    display: flex;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 66rem;
+    position: relative;
+    top: 10px;
+    padding: 0;
+  }
+
+nav li {
+    display: table-cell;
+    margin-left: 45px;
+}
+
+span {
+    white-space: pre-wrap;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.shoply {
+    text-decoration: none; 
+    margin-left: 20px;
+    position:relative; 
+    top: -10px;
+    padding: 7px;
+    font-size: 25px;
+    font-family: Comic;
+    border: 2px solid rgb(205, 205, 249);
+    color: rgb(247, 201, 61);
+    background-color: rgb(52, 37, 93);
+    border-radius: 5px
+}
+.shoply:hover { 
+    background-color: rgb(72, 70, 79);
+}
+.see-cart{
+    text-decoration: none;
+    display: flex;
+    color: rgb(136, 9, 255);
+    margin-left: 20px;
+    padding: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.see-cart:hover {
+    color: rgb(206, 157, 249);
+}
+
+
